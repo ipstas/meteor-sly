@@ -5,7 +5,7 @@ Package.describe({
   "name": "sly",
   "homepage": "https://github.com/dcsan/meteor-sly",
   "author": "dcsan",
-  "version": "0.2.1",
+  "version": "v1.2.7_1",
   "git": "https://github.com/dcsan/meteor-sly.git"
 
 });
