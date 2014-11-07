@@ -1,8 +1,13 @@
-/**
- * Created by dc on 11/6/14.
- */
-
 'use strict';
+
+Template.slyDemo.events({
+
+  "click #initSly": function() {
+    console.log('initSly');
+    SlyDemo.horiz()
+  }
+
+})
 
 SlyDemo.horiz = function() {
 
