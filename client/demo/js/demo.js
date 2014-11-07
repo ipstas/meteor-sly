@@ -9,6 +9,10 @@ Template.slyDemo.events({
 
 })
 
+Template.slyDemo.rendered = function() {
+  SlyDemo.horiz()
+}
+
 SlyDemo.horiz = function() {
 
   console.log("sly-demo.js");
@@ -18,7 +22,7 @@ SlyDemo.horiz = function() {
   var $wrap = $frame.parent();
 
   // Call Sly on frame
-  $frame.sly({
+  SlyDemo.obj = $frame.sly({
     horizontal: 1,
     itemNav: 'basic',
     smart: 1,
