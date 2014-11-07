@@ -1,5 +1,7 @@
 'use strict';
 
+SlyDemo = {};
+
 Template.slyDemo.events({
 
   "click #initSly": function() {

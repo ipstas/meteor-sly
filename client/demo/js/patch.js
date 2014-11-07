@@ -1,9 +1,5 @@
-/**
- * Created by dc on 11/6/14.
- */
 
-// Use tweening for basic animations with known end point
-else {
+{
   //debugger
   animation.time = min(+new Date() - animation.start, o.speed);
   var obj = {
