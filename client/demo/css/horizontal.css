@@ -9,8 +9,8 @@ body { background: #e8e8e8; }
 
 /* Frame */
 .frame {
-	height: 250px;
-	line-height: 250px;
+	height: 200px;
+	line-height: 200px;
 	overflow: hidden;
 }
 .frame ul {
@@ -73,14 +73,14 @@ body { background: #e8e8e8; }
 	border-radius: 10px;
 	cursor: pointer;
 	overflow: hidden;
-	background: #fff;
+	background: dimgrey;
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
 }
 .pages li:hover {
 	background: #aaa;
 }
 .pages li.active {
-	background: #666;
+	background: #FFF;
 }
 
 /* Controls */
@@ -118,10 +118,12 @@ body { background: #e8e8e8; }
 	margin: 0 -20px;
 	-webkit-transform: rotateY(60deg) scale(0.9);
 	-ms-transform: rotateY(60deg) scale(0.9);
-	transform: rotateY(60deg) scale(0.9);
+	transform: rotateY(60deg) scale(0.8) translateZ(50px);
 	-webkit-transition: -webkit-transform 300ms ease-out;
 	transition: transform 300ms ease-out;
 }
+
+/* this one is selected */
 .effects ul li.active {
 	z-index: 10;
 	-webkit-transform: scale(1);
@@ -131,5 +133,5 @@ body { background: #e8e8e8; }
 .effects ul li.active ~ li {
 	-webkit-transform: rotateY(-60deg) scale(0.9);
 	-ms-transform: rotateY(-60deg) scale(0.9);
-	transform: rotateY(-60deg) scale(0.9);
+	transform: rotateY(-60deg) scale(0.8) translateZ(50px);
 }

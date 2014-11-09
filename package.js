@@ -21,18 +21,20 @@ Package.on_use(function (api) {
     'ui',
     'jquery',
     'templating',
-    'stylus',
-    'mquandalle:jade'
+    //'stylus',
+    //'mquandalle:jade'
   ], 'client');
 
   api.add_files([
-    'client/demo/js/namespace.js', // first
-    'client/demo/slyDemo.html',
-    'client/demo/css/horizontal.css',
+    //'client/demo/js/namespace.js', // first
+    //'client/demo/slyDemo.html',
+
+    // dont mess with the apps css version
+    //'client/demo/css/horizontal.css',
     'client/demo/js/vendor/plugins.js',
     'lib/dist/sly.js',
     //'client/demo/js/horizontal.js'
-    'client/demo/js/demo.js'
+    //'client/demo/js/demo.js'
   ], 'client' );
 
   api.add_files([
