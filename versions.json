@@ -30,7 +30,7 @@
     ],
     [
       "aldeed:autoform",
-      "4.0.0-rc6"
+      "4.0.1"
     ],
     [
       "aldeed:collection2",
@@ -39,10 +39,6 @@
     [
       "aldeed:simple-schema",
       "1.1.0"
-    ],
-    [
-      "aldeed:template-extension",
-      "2.0.0"
     ],
     [
       "application-configuration",
@@ -98,10 +94,6 @@
     ],
     [
       "dcsan:apubsubman",
-      "0.0.1"
-    ],
-    [
-      "dcsan:bot",
       "0.0.1"
     ],
     [
@@ -163,10 +155,6 @@
     [
       "dcsan:sly",
       "1.2.7_1"
-    ],
-    [
-      "dcsan:yogiben-admin",
-      "0.9.6"
     ],
     [
       "ddp",
@@ -390,7 +378,7 @@
     ],
     [
       "raix:handlebar-helpers",
-      "0.1.2"
+      "0.1.3"
     ],
     [
       "random",
@@ -499,6 +487,10 @@
     [
       "webapp-hashing",
       "1.0.1"
+    ],
+    [
+      "yogiben:admin",
+      "1.0.3"
     ]
   ],
   "pluginDependencies": [],
