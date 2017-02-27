@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'dcsan:sly',
+  name: 'ipstas:sly',
   summary: 'sly carousel for meteor http://darsa.in/sly/',
-  "homepage": "https://github.com/dcsan/meteor-sly",
-  "author": "dcsan",
+  "homepage": "https://github.com/ipstas/meteor-sly",
+  "author": "ipstas",
   "version": "1.2.7_1",
-  "git": "https://github.com/dcsan/meteor-sly.git"
+  "git": "https://github.com/ipstas/meteor-sly.git"
 
 });
 
@@ -12,9 +12,9 @@ Package.on_use(function (api) {
   var both = ['client', 'server'];
 
   api.use([
-    'iron:router',
+/*     'iron:router',
     'coffeescript',
-    'underscore'
+    'underscore' */
   ], both);
 
   api.use([
@@ -31,16 +31,16 @@ Package.on_use(function (api) {
 
     // dont mess with the apps css version
     //'client/demo/css/horizontal.css',
-    'client/demo/js/vendor/plugins.js',
+    //'client/demo/js/vendor/plugins.js',
     'lib/dist/sly.js',
     //'client/demo/js/horizontal.js'
     //'client/demo/js/demo.js'
   ], 'client' );
 
   api.add_files([
-    'both/routes.coffee'
+/*     'both/routes.coffee' */
   ], both );
 
-  api.export(["SlyDemo"], 'client' );
+/*   api.export(["SlyDemo"], 'client' ); */
 
 });
