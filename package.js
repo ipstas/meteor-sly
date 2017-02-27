@@ -3,7 +3,7 @@ Package.describe({
   summary: 'sly carousel for meteor http://darsa.in/sly/',
   "homepage": "https://github.com/ipstas/meteor-sly",
   "author": "ipstas",
-  "version": "1.2.7_1",
+  "version": "1.6.1",
   "git": "https://github.com/ipstas/meteor-sly.git"
 
 });
